@@ -11,6 +11,6 @@ namespace TinyPing3101
         public string Name { get; set; }
         public int Price { get; set; }
         public int Popular { get; set; }
-        public string Kind { get; set; }
+        public int Accessories { get; set; }
     }
 }
