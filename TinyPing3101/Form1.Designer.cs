@@ -56,6 +56,7 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(328, 415);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
@@ -66,6 +67,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "모두 보기";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -76,6 +78,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "10000원 이상 가격 비싼 순서대로 보기";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -86,6 +89,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "이름 내림차순 보기";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -96,6 +100,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "별 3개 이상의 인기도 순서대로 보기";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // characterBindingSource
             // 
